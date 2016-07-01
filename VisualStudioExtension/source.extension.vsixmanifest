@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="ae9d6285-3f2a-4cbe-9021-82eb4d8b8c74" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
@@ -15,4 +15,9 @@
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
   </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" Source="File" Path="PecanWaffle.dll" AssemblyName="PecanWaffle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+  </Assets>
 </PackageManifest>
