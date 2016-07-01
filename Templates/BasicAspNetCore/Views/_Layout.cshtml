@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BasicAspNetCore</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav class="container">
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index">BasicAspNetCore</a></li>
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="About">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <h2>@ViewData["Title"]</h2>
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <span>&copy; 2016 - BasicAspNetCore</span>
+        </div>
+    </footer>
+
+    <script src="~/js/site.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
