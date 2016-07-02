@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ASP.NET Core Basic Web Application (.NET Core)</Name>
+    <Description>A basic web application that makes it easy to get started.</Description>
+    <DefaultName>WebApplication</DefaultName>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType></ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <!--<Icon>sw-file-icon.png</Icon>-->
+    <TemplateID>basic.aspnet.core</TemplateID>
+    <!-- Indicates how many parent folders this item template should appear in -->
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <WizardExtension>
+    <Assembly>PecanWaffle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>PecanWaffle.PecanWizard</FullClassName>
+  </WizardExtension>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.csproj" File="BasicAspNetCore.csproj" ReplaceParameters="true" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"></Project>
+    <CustomParameters xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+      <CustomParameter Name="TemplateName" Value="BasicAspNetCore" />
+      <CustomParameter Name="PecanWaffleInstallBranch" Value="dev" />
+      <CustomParameter Name="ExtensionId" Value="ae9d6285-3f2a-4cbe-9021-82eb4d8b8c74"/>
+      <CustomParameter Name="Item" Value="Item" />
+    </CustomParameters>
+  </TemplateContent>
+</VSTemplate>
