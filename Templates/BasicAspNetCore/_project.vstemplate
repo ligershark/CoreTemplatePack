@@ -21,10 +21,9 @@
     <FullClassName>PecanWaffle.PecanWizard</FullClassName>
   </WizardExtension>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.csproj" File="BasicAspNetCore.csproj" ReplaceParameters="true" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"></Project>
+    <Project TargetFileName="$safeprojectname$.csproj" File="VsTemplateProj.csproj" ReplaceParameters="true" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"></Project>
     <CustomParameters xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
       <CustomParameter Name="TemplateName" Value="BasicAspNetCore" />
-      <CustomParameter Name="PecanWaffleInstallBranch" Value="dev" />
       <CustomParameter Name="ExtensionId" Value="ae9d6285-3f2a-4cbe-9021-82eb4d8b8c74"/>
       <CustomParameter Name="Item" Value="Item" />
     </CustomParameters>

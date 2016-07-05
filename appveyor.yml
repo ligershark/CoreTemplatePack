@@ -9,8 +9,8 @@ before_build:
   #- ps: Vsix-TokenReplacement VisualStudioExtension\source.extension.cs 'Version = "([0-9\\.]+)"' 'Version = "{version}"'
 
 build_script:
-  - nuget restore .\VisualStudioExtension -Verbosity quiet -PackagesDirectory .\Packages
-  - dotnet restore .\Templates\BasicAspNetCore
+  - nuget restore .\VisualStudioExtension -Verbosity quiet
+  - dotnet restore .\Templates\BasicAspNetCore --ignore-failed-sources -v Error
   - msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal /v:m
 
 after_test:
