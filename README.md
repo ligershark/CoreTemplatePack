@@ -8,7 +8,9 @@ or get the [CI build](http://vsixgallery.com/extension/ae9d6285-3f2a-4cbe-9021-8
 
 ---------------------------------------
 
-A collection of .NET Core project templates
+A collection of .NET Core project templates. Requires
+[.NET Core Tooling Preview 2](https://www.microsoft.com/net/download#tools)
+or later.
 
 See the [changelog](CHANGELOG.md) for changes and roadmap.
 
