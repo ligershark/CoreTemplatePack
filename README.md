@@ -16,6 +16,7 @@ See the [changelog](CHANGELOG.md) for changes and roadmap.
 ## Templates
 
 - Basic ASP.NET Core
+- and more to come...
 
 ![New project dialog](art/new-project-dialog.png)
 
@@ -26,7 +27,7 @@ as well as a clean starting point for creating any type of web application
 including SPA.
 
 It doesn't include any client-side libraries or tooling, so there is no
-Bower, npm, Gulp or Bundler. 
+Bower, npm, Gulp or Bundler.
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
