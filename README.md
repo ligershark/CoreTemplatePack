@@ -18,7 +18,7 @@ See the [changelog](CHANGELOG.md) for changes and roadmap.
 
 - Basic ASP.NET Core
 
-![New project dialog](art\new-project-dialog.png)
+![New project dialog](art/new-project-dialog.png)
 
 ### Basic ASP.NET Core
 This template is conceptually somewhere between the current _Empty_ and
