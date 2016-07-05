@@ -2,8 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/87494qumqj3sh13e?svg=true)](https://ci.appveyor.com/project/madskristensen/coretemplatepack)
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
+Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/31a3eab5-e62b-4030-9226-b5e4c9e1ffb5)
 or get the [CI build](http://vsixgallery.com/extension/ae9d6285-3f2a-4cbe-9021-82eb4d8b8c74/).
 
 ---------------------------------------
