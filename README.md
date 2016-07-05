@@ -26,8 +26,11 @@ _Web Application_ templates. It is great for learning about ASP.NET Core
 as well as a clean starting point for creating any type of web application
 including SPA.
 
+![Basic ASP.NET Core](art/basic-template.png)
+
 It doesn't include any client-side libraries or tooling, so there is no
-Bower, npm, Gulp or Bundler.
+Bower, npm, Gulp or Bundler. It doesn't hide any files and folder either,
+so what you see is what you get.
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
