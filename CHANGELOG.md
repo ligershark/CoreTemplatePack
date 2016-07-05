@@ -1,8 +1,6 @@
 # Roadmap
 
-- [x] Basic ASP.NET Core template
-- [x] Visual Studio extension infrastructure
-- [ ] Icon for templates
+- [ ] Other project templates...
 
 Features that have a checkmark are complete and available for
 download in the
@@ -15,6 +13,8 @@ on the official Visual Studio extension gallery.
 
 ## 1.0
 
-**2016-07-01**
+**2016-07-05**
 
-- [ ] Not released yet
+- [x] Basic ASP.NET Core template
+- [x] Visual Studio extension infrastructure
+- [x] Icon for templates

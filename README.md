@@ -29,7 +29,7 @@ It doesn't include any client-side libraries or tooling, so there is no
 Bower, npm, Gulp or Bundler. 
 
 ## Contribute
-Check out the [contribution guidelines](CONTRIBUTING.md)
+Check out the [contribution guidelines](.github/CONTRIBUTING.md)
 if you want to contribute to this project.
 
 For cloning and building this project yourself, make sure
