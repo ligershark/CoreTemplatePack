@@ -8,24 +8,24 @@ or get the [CI build](http://vsixgallery.com/extension/ae9d6285-3f2a-4cbe-9021-8
 
 ---------------------------------------
 
-Empty VSIX Project.
+A collection of .NET Core project templates
 
 See the [changelog](CHANGELOG.md) for changes and roadmap.
 
-## Features
+## Templates
 
-- Feature 1
-- Feature 2
-  - Sub feature
+- Basic ASP.NET Core
 
-### Feature 1
-Describe feature 1. Add screenshots/code samples etc.
+![New project dialog](art\new-project-dialog.png)
 
-### Feature 2
-Describe feature 2. Add screenshots/code samples etc.
+### Basic ASP.NET Core
+This template is conceptually somewhere between the current _Empty_ and
+_Web Application_ templates. It is great for learning about ASP.NET Core
+as well as a clean starting point for creating any type of web application
+including SPA.
 
-#### Sub feature
-Describe sub feature. Add screenshots/code samples etc.
+It doesn't include any client-side libraries or tooling, so there is no
+Bower, npm, Gulp or Bundler. 
 
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)
