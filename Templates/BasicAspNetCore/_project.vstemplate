@@ -11,7 +11,7 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon Package="{AAB75614-2F8F-4DA6-B0A6-763C6DBB2969}" ID="4" />
+    <Icon Package="{63b2059e-1711-455f-9d05-02ed4a439082}" ID="400" />
     <TemplateID>basic.aspnet.core</TemplateID>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
