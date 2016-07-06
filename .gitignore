@@ -1,5 +1,6 @@
 packages
 launchSettings.json
+template-report.xml
 
 # User files
 *.suo

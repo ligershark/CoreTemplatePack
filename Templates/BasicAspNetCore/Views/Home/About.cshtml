@@ -1,9 +1,19 @@
-﻿@{
+﻿@model IEnumerable<Employee>
+@{
     ViewData["Title"] = "About Page";
     ViewData["Description"] = "The about page of my website";
 }
 
 <p>This is the about.cshtml</p>
+
+<h2>Employees</h2>
+
+<ul>
+    @foreach (var employee in Model)
+    {
+        <li>@employee.Name (@employee.Title)</li>
+    }
+</ul>
 
 @section Scripts {
     @*Insert any script tags for this page here*@

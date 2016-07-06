@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>ASP.NET Core Basic Web Application (.NET Core)</Name>
-    <Description>A basic web application that makes it easy to get started.</Description>
+    <Name>ASP.NET Core Starter MVC Application (.NET Core)</Name>
+    <Description>A basic MVC web application that makes it easy to get started.</Description>
     <DefaultName>WebApplication</DefaultName>
 
     <ProjectType>CSharp</ProjectType>

@@ -41,6 +41,7 @@ main {
     display: block;
 }
 
+/* This ensures the footer is always located at the bottom of the page */
 .wrapper {
     min-height: 100%;
     /* equal to footer height */
@@ -61,6 +62,7 @@ main {
             padding-top: 10px;
         }
 
+/* Changes the layout of the header on small screens */
 @media only screen and (max-width: 640px) {
     header ul {
         text-align: center;

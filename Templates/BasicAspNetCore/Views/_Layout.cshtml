@@ -21,14 +21,14 @@
         </header>
 
         <main class="container">
-            <h2>@ViewData["Title"]</h2>
+            <h1>@ViewData["Title"]</h1>
             @RenderBody()
         </main>
     </div>
 
     <footer>
         <div class="container">
-            <span>&copy; 2016 - BasicAspNetCore</span>
+            <span>&copy; @DateTime.Now.Year - BasicAspNetCore</span>
         </div>
     </footer>
 

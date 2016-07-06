@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TemplateReport>
-  <ItemTemplates />
-  <ProjectTemplates>
-    <ProjectTemplate Path="..\Templates\BasicAspNetCore\_Definitions\_project.vstemplate.xml" Name="ASP.NET Core Basic Web Application (.NET Core)" Description="A basic web application that makes it easy to get started." ProjectType="CSharp" ProjectSubType="Web" />
-  </ProjectTemplates>
-  <Snippets />
-</TemplateReport>
