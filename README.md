@@ -15,14 +15,14 @@ See the [changelog](CHANGELOG.md) for changes and roadmap.
 
 ## Templates
 
-- Basic ASP.NET Core
+- ASP.NET Core Starter MVC
 - and more to come...
 
 ![New project dialog](art/new-project-dialog.png)
 
-### Basic ASP.NET Core
+### ASP.NET Core Starter MVC
 This template is conceptually somewhere between the current _Empty_ and
-_Web Application_ templates. It is great for learning about ASP.NET Core
+_Web Application_ templates. It is great for learning about ASP.NET MVC
 as well as a clean starting point for creating any type of web application
 including SPA.
 
