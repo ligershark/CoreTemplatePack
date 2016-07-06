@@ -1,6 +1,7 @@
 packages
 launchSettings.json
 template-report.xml
+project.lock.json
 
 # User files
 *.suo
