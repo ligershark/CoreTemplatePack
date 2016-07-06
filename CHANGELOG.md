@@ -2,6 +2,8 @@
 
 - [x] Basic ASP.NET Core template responsive
 - [x] Added version querystring to .css and .js files
+- [ ] New project templates
+  - [ ] Static files + Web API template for [Vue.js](http://vuejs.org/)
 
 Features that have a checkmark are complete and available for
 download in the
