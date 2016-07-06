@@ -1,6 +1,7 @@
 # Roadmap
 
-- [ ] Other project templates...
+- [x] Basic ASP.NET Core template responsive
+- [x] Added version querystring to .css and .js files
 
 Features that have a checkmark are complete and available for
 download in the

@@ -62,12 +62,11 @@ main {
         }
 
 @media only screen and (max-width: 640px) {
-    header ul{
+    header ul {
         text-align: center;
     }
 
-    header li:first-child{
+    header li:first-child {
         display: block;
     }
-
 }
