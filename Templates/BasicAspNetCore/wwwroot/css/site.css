@@ -5,8 +5,9 @@ html, body {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 950px;
     margin: 0 auto;
+    padding: 0 10px;
     display: block;
 }
 
@@ -26,13 +27,13 @@ nav ul {
 }
 
 nav li {
-    display: inline;
-    margin-left: 2em;
+    display: inline-block;
+    margin: 0 1em;
 }
 
     nav li:first-child {
         font-size: 1.3em;
-        margin: 0;
+        margin-left: 0;
     }
 
 main {
@@ -59,3 +60,14 @@ main {
             border-top: 1px solid #e1e1e1;
             padding-top: 10px;
         }
+
+@media only screen and (max-width: 640px) {
+    header ul{
+        text-align: center;
+    }
+
+    header li:first-child{
+        display: block;
+    }
+
+}

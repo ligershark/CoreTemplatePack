@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - BasicAspNetCore</title>
-    <link href="~/css/site.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@ViewData["Description"]" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
 
     <div class="wrapper">
-        <header>
+        <header role="banner">
             <nav class="container">
                 <ul>
                     <li><a asp-controller="Home" asp-action="Index">BasicAspNetCore</a></li>
@@ -31,7 +32,7 @@
         </div>
     </footer>
 
-    <script src="~/js/site.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
