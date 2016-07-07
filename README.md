@@ -15,18 +15,18 @@ See the [changelog](CHANGELOG.md) for changes and roadmap.
 
 ## Templates
 
-- ASP.NET Core Starter MVC
+- ASP.NET Core MVC Starter Application
 - and more to come...
 
 ![New project dialog](art/new-project-dialog.png)
 
-### ASP.NET Core Starter MVC
+### ASP.NET Core MVC Starter Application
 This template is conceptually somewhere between the current _Empty_ and
 _Web Application_ templates. It is great for learning about ASP.NET MVC
 as well as a clean starting point for creating any type of web application
 including SPA.
 
-![Basic ASP.NET Core](art/basic-template.png)
+![ASP.NET Core MVC Starter Application](art/mvc-starter-template.png)
 
 It doesn't include any client-side libraries or tooling, so there is no
 Bower, npm, Gulp or Bundler. It doesn't hide any files and folder either,

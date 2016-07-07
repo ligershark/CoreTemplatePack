@@ -5,9 +5,10 @@
 - [x] Using _TemplateBuilder_ instead of _pecan-waffle_
 - [x] Comments that makes it easier to get started
 - [x] Renamed template to _ASP.NET Core Starter MVC_
-- [ ] New project templates
-  - [ ] Static files + Web API template for [Vue.js](http://vuejs.org/)
-  - [ ] Static files + Web Api template for [Aurelia](https://github.com/aurelia/aurelia)
+
+**New templates**
+- [ ] Static files + Web API template for [Vue.js](http://vuejs.org/)
+- [ ] Static files + Web Api template for [Aurelia](https://github.com/aurelia/aurelia)
 
 Features that have a checkmark are complete and available for
 download in the
