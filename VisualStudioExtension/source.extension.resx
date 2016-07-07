@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="110" xml:space="preserve">
-    <value>ASP.NET Core Template Pack</value>
+    <value>ASP.NET Core Starter Templates</value>
   </data>
   <data name="112" xml:space="preserve">
-    <value>A collection of .NET Core project templates</value>
+    <value>A collection of project templates that makes it easy to learn how to use ASP.NET Core</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="400" type="System.Resources.ResXFileRef, System.Windows.Forms">

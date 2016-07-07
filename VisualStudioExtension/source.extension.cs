@@ -8,8 +8,8 @@ namespace CoreTemplatePack
     static class Vsix
     {
         public const string Id = "ae9d6285-3f2a-4cbe-9021-82eb4d8b8c74";
-        public const string Name = "ASP.NET Core Template Pack";
-        public const string Description = "A collection of .NET Core project templates";
+        public const string Name = "ASP.NET Core Starter Templates";
+        public const string Description = "A collection of project templates that makes it easy to learn how to use ASP.NET Core";
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Mads Kristensen";
