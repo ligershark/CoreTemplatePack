@@ -16,6 +16,7 @@ See the [changelog](CHANGELOG.md) for changes and roadmap.
 ## Templates
 
 - ASP.NET Core MVC Starter Application
+- Static Website
 - and more to come...
 
 ![New project dialog](art/new-project-dialog.png)
@@ -31,6 +32,17 @@ including SPA.
 It doesn't include any client-side libraries or tooling, so there is no
 Bower, npm, Gulp or Bundler. It doesn't hide any files and folder either,
 so what you see is what you get.
+
+### Static Website
+This template is for building static websites using the new ASP.NET Core
+project system with all the benefits it provides. You get:
+
+- An optional _wwwroot_ folder for output
+- Files on the filesystem shows up automatically in Solution Explorer
+- Managing Bower and npm dependencies
+- Publishing through Visual Studio
+
+![Static Website](art/static-website-template.png)
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
