@@ -6,7 +6,7 @@ install:
 
 before_build:
   - ps: Vsix-IncrementVsixVersion | Vsix-UpdateBuildVersion
-  #- ps: Vsix-TokenReplacement VisualStudioExtension\source.extension.cs 'Version = "([0-9\\.]+)"' 'Version = "{version}"'
+  - ps: Vsix-TokenReplacement VisualStudioExtension\source.extension.cs 'Version = "([0-9\\.]+)"' 'Version = "{version}"'
 
 build_script:
   - nuget restore .\VisualStudioExtension -Verbosity quiet -PackagesDirectory .\Packages
@@ -16,3 +16,13 @@ build_script:
 
 after_test:
   - ps: Vsix-PushArtifacts | Vsix-PublishToGallery
+
+before_deploy:
+  - ps: Vsix-CreateChocolatyPackage -packageId aspnetcoretemplatepack
+
+deploy:
+  - provider: Environment
+    name: Chocolatey
+    on:
+      branch: master
+      appveyor_repo_commit_message_extended: /\[release\]/

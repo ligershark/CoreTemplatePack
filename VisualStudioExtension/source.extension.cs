@@ -11,7 +11,7 @@ namespace CoreTemplatePack
         public const string Name = "ASP.NET Core Template Pack";
         public const string Description = "A collection of project templates that makes it easy to learn how to use ASP.NET Core";
         public const string Language = "en-US";
-        public const string Version = "1.0";
+        public const string Version = "1.1";
         public const string Author = "Mads Kristensen";
         public const string Tags = "asp.net, core, template";
     }
