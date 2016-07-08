@@ -5,8 +5,10 @@
 - [x] Using _TemplateBuilder_ instead of _pecan-waffle_
 - [x] Comments that makes it easier to get started
 - [x] Renamed template to _ASP.NET Core Starter MVC_
+- [ ] Add readme.md file to all templates
 
 **New templates**
+- [x] Static website template
 - [ ] Static files + Web API template for [Vue.js](http://vuejs.org/)
 - [ ] Static files + Web Api template for [Aurelia](https://github.com/aurelia/aurelia)
 

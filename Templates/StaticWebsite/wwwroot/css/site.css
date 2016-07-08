@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    font: 16px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: block;
+}
+
+header {
+    background-color: #080808;
+}
+
+nav a {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.7em 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+    nav li:first-child {
+        font-size: 1.3em;
+        margin-left: 0;
+    }
+
+main {
+    padding: 2rem 0;
+    display: block;
+}
+
+/* This ensures the footer is always located at the bottom of the page */
+.wrapper {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -50px;
+}
+
+    .wrapper:after {
+        content: "";
+        display: block;
+    }
+
+    footer, .wrapper:after {
+        height: 50px;
+    }
+
+        footer .container {
+            border-top: 1px solid #e1e1e1;
+            padding-top: 10px;
+        }
+
+/* Changes the layout of the header on small screens */
+@media only screen and (max-width: 640px) {
+    header ul {
+        text-align: center;
+    }
+
+    header li:first-child {
+        display: block;
+    }
+}

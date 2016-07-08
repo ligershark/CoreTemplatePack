@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="ae9d6285-3f2a-4cbe-9021-82eb4d8b8c74" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
-    <DisplayName>ASP.NET Core Starter Templates</DisplayName>
+    <DisplayName>ASP.NET Core Template Pack</DisplayName>
     <Description xml:space="preserve">A collection of project templates that makes it easy to learn how to use ASP.NET Core</Description>
     <MoreInfo>https://github.com/ligershark/CoreTemplatePack/</MoreInfo>
     <License>Resources\LICENSE</License>
