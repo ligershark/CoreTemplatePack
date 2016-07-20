@@ -16,13 +16,13 @@ namespace BasicAspNetCore.Controllers
         {
             // The view being returned is calculated based on the name of the
             // controller (Home) and the name of the action method (Index).
-            // So in this case, the view return is /View/Home/Index.cshtml.
+            // So in this case, the view returned is /Views/Home/Index.cshtml.
             return View();
         }
 
         public IActionResult About()
         {
-            // Creates a model and pass it on to the view.
+            // Creates a model and passes it on to the view.
             Employee[] model =
             {
                 new Employee { Name = "Alfred", Title = "Manager" },
