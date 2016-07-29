@@ -1,7 +1,11 @@
 packages
-launchSettings.json
+Templates/BasicAspNetCore/Properties/launchSettings.json
+Templates/StaticWebsite/Properties/launchSettings.json
 template-report.xml
 project.lock.json
+node_modules
+npm-debug.log
+dist
 
 # User files
 *.suo

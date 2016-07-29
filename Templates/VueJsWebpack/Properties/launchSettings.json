@@ -1,0 +1,23 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1335/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "Node server": {
+      "executablePath": "%windir%\\system32\\cmd.exe",
+      "commandLineArgs": "/c npm run serve-dev"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

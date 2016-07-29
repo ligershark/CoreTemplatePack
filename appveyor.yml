@@ -12,6 +12,7 @@ build_script:
   - nuget restore .\VisualStudioExtension -Verbosity quiet -PackagesDirectory .\Packages
   - dotnet restore .\Templates\BasicAspNetCore --ignore-failed-sources -v Error
   - dotnet restore .\Templates\StaticWebsite --ignore-failed-sources -v Error
+  - dotnet restore .\Templates\VueJsWebpack --ignore-failed-sources -v Error
   - msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal /v:m
 
 after_test:

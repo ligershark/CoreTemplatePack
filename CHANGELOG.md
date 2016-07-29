@@ -1,16 +1,16 @@
-# Roadmap
+# Road map
 
 - [ ] Add readme.md file to all templates
 
 **New templates**
-- [ ] Static files + Web API template for [Vue.js](http://vuejs.org/)
-- [ ] Static files + Web Api template for [Aurelia](https://github.com/aurelia/aurelia)
+- [x] [Vue.js](http://vuejs.org/) with Webpack
+- [ ] Static files + Web API template for [Aurelia](https://github.com/aurelia/aurelia)
 
 Features that have a checkmark are complete and available for
 download in the
 [CI build](http://vsixgallery.com/extension/ae9d6285-3f2a-4cbe-9021-82eb4d8b8c74/).
 
-# Changelog
+# Change log
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.

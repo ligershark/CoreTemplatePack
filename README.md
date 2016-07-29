@@ -17,6 +17,7 @@ See the [changelog](CHANGELOG.md) for changes and roadmap.
 
 - ASP.NET Core MVC Starter Application
 - Static Website
+- Vue.js with WebPack
 - and more to come...
 
 ![New project dialog](art/new-project-dialog.png)
@@ -38,11 +39,14 @@ This template is for building static websites using the new ASP.NET Core
 project system with all the benefits it provides. You get:
 
 - An optional _wwwroot_ folder for output
-- Files on the filesystem shows up automatically in Solution Explorer
+- Files on the file system shows up automatically in Solution Explorer
 - Managing Bower and npm dependencies
 - Publishing through Visual Studio
 
 ![Static Website](art/static-website-template.png)
+
+### Vue.js with Webpack
+...description coming soon
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
