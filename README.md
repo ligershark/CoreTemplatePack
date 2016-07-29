@@ -46,7 +46,14 @@ project system with all the benefits it provides. You get:
 ![Static Website](art/static-website-template.png)
 
 ### Vue.js with Webpack
-...description coming soon
+A great starting point for building websites using the
+[Vue.js](http://vuejs.org) framework all hooked up with npm and Webpack.
+
+For the best experience with Vue.js it is recommended that you install
+the [Vue.js Pack extension](https://visualstudiogallery.msdn.microsoft.com/30fd019a-7b90-4f75-bb54-b8f49f18fbe1)
+for Visual Studio.
+
+![Vue.js with Webpack](art/vuejs-template.png)
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
