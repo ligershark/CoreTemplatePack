@@ -77,6 +77,8 @@
       <Generator>VsixManifestGenerator</Generator>
       <LastGenOutput>source.extension.resx</LastGenOutput>
     </None>
+    <None Include="Scripts\UpdateAspNetCoreAngular2.cmd" />
+    <None Include="Scripts\UpdateAspNetCoreAngular2.sh" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Icon.png">
@@ -211,6 +213,9 @@
     </TemplateReference>
     <TemplateReference Include="VueJsWebpack.xproj">
       <PathToProject>../Templates/VueJsWebpack/VueJsWebpack.xproj</PathToProject>
+    </TemplateReference>
+    <TemplateReference Include="AspNetCoreAngular2.xproj">
+      <PathToProject>../Templates/AspNetCoreAngular2/AspNetCoreAngular2.xproj</PathToProject>
     </TemplateReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Preprocess>
+  <!--
+  You can specify the path where this should show up in the
+  Add New Project / Add New Item dialog by setting the value below
+  -->
+  <TemplateInfo Path="CSharp\Web"/>
+  <Replacements Include="*.*" Exclude="ReadMe.html;*.vstemplate;*.csproj;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml">
+    <!-- Find and replace the root namespace with the generated one. -->
+    <add key="AspNetCoreAngular2" value="$safeprojectname$"/>
+    <!-- Replace the ProjectGuid (Unique ID for the project) with a generated GUID. Replace this with your own. -->
+    <add key="0b04208e-c11c-4026-9cfa-fbf4ecbd4547" value="$guid1$"/>
+  </Replacements>
+</Preprocess>
