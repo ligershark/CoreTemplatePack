@@ -10,6 +10,7 @@ before_build:
 
 build_script:
   - nuget restore .\VisualStudioExtension -Verbosity quiet -PackagesDirectory .\Packages
+  - dotnet restore .\Templates\AspNetCoreAngular2 --ignore-failed-sources -v Error
   - dotnet restore .\Templates\BasicAspNetCore --ignore-failed-sources -v Error
   - dotnet restore .\Templates\StaticWebsite --ignore-failed-sources -v Error
   - dotnet restore .\Templates\VueJsWebpack --ignore-failed-sources -v Error

@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ASP.NET Core Angular 2 Starter Application (.NET Core)</Name>
+    <Description>An MVC web application that hosts an Angular 2 single-page application.</Description>
+    <DefaultName>Angular2Application</DefaultName>
+
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Web</ProjectSubType>
+    <RequiredFrameworkVersion>4.5.1</RequiredFrameworkVersion>
+    <CreateInPlace>true</CreateInPlace>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+
+    <SortOrder>1001</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+
+    <Icon Package="{63b2059e-1711-455f-9d05-02ed4a439082}" ID="400" />
+    <TemplateID>aspnet.core.basic</TemplateID>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="AspNetCoreAngular2.xproj" ReplaceParameters="true" />
+  </TemplateContent>
+</VSTemplate>
