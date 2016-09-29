@@ -1,11 +1,11 @@
-import * as ng from '@angular/core';
+import { Component } from '@angular/core';
 import { Http } from '@angular/http';
 
-@ng.Component({
-  selector: 'fetch-data',
-  template: require('./fetch-data.html')
+@Component({
+    selector: 'fetchdata',
+    template: require('./fetchdata.component.html')
 })
-export class FetchData {
+export class FetchDataComponent {
     public forecasts: WeatherForecast[];
 
     constructor(http: Http) {
