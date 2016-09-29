@@ -9,8 +9,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>0b04208e-c11c-4026-9cfa-fbf4ecbd4547</ProjectGuid>
     <RootNamespace>AspNetCoreAngular2</RootNamespace>
-    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
-    <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup>
