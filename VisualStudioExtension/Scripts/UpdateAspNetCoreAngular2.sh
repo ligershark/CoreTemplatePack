@@ -9,6 +9,7 @@ yo aspnetcore-spa --skip-install --framework=angular-2 --name=AspNetCoreAngular2
 # Even though there's a .gitignore excluding wwwroot/dist/, we do want those files to be tracked as part of the CoreTemplatePack repo,
 # since the idea is to have prebuilt JS files as a workaround for the template not supporting post-project-creation actions.
 git add -f wwwroot/dist/*
+git add -f ClientApp/dist/*
 
 popd > /dev/null
 
