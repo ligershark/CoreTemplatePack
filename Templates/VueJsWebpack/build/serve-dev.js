@@ -4,6 +4,7 @@ var config = require('../config');
 var open = require('opener');
 
 var port = process.env.PORT || config.dev.port;
+var launchBrowser = config.dev.launchBrowser;
 
 function checkConnection(host, port, timeout) {
     return new Promise(function (resolve, reject) {
@@ -25,12 +26,16 @@ function checkConnection(host, port, timeout) {
 }
 
 checkConnection("localhost", port, 1000).then(function () {
-    var p = open("http://localhost:" + port, function () {
-        console.log("Server already running. Opening browser...");
-    });
+    if (launchBrowser) {
+        var p = open("http://localhost:" + port, function () {
+            console.log("Server already running. Opening browser...");
+        });
+    }
 
 }, function (err) {
     // if port isn't open, run the dev-server that opens it
     var server = require('./dev-server');
-    open("http://localhost:" + port);
+    if (launchBrowser) {
+        open("http://localhost:" + port);
+    }
 });
